@@ -1,4 +1,4 @@
-# Universal segmentation baseline. Kaggle Airbus Ship Detection Challenge - bronze medal solution. 
+# Ship Segmentation in Satellite Image Data 
 
 This repository contains a complete solution for the challenge: from creating datasets to training and creating a submit file. Moreover, it can be used as a universal high-quality baseline solution for any segmentation task.
 
