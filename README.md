@@ -1,6 +1,6 @@
 # Ship Segmentation in Satellite Image Data 
 
-This repository contains a complete solution for the challenge: from creating datasets to training and creating a submit file. Moreover, it can be used as a universal high-quality baseline solution for any segmentation task.
+This repository contains our task in Marine Monitor : Segment ships from satellite images
 
 
 ## Content
@@ -86,7 +86,6 @@ All transforms are applied on the fly during batch preparation and there is no n
  
  ## Prediction  and postprocessing <a name="prediction"/>
  
- This part of the repo is relevant only for the competition but some postprocessing functions may be used to treat any segmentation results.
  The whole process described in [noteboks/prediction.ipynb](notebooks/prediction.ipynb). There is function "waters" which combines all used postprocessing techniques: removing of false positive predictions (with area less then threshold), boundaries separation and fitting every ship by a rectangle.
  Examples of trained model predictions and results of postprocessing are presented on the following image.
  ![predictions](git_images/predictions.gif "Predictions")
